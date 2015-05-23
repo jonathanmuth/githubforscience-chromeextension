@@ -19,6 +19,17 @@
   text-shadow: 0 -1px 0 rgba(0,0,0,0) !important;
 }
 
+.header-logo-wordmark {
+  position: relative;
+  top: -3px;
+}
+
+.header-logo-wordmark::after {
+  content: 'for Science';
+  position: absolute;
+  bottom: -14px;
+}
+
 .commit-tease {
   background-color: rgba(15,66,203, 0.125) !important;
 }
