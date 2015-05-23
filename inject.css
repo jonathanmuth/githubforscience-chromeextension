@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro:700,400,600);
+
+.homepage .container {
+  font-family: serif !important;
+}
+
+.entry-content {
+  font-family: 'Source Serif Pro', serif !important;
+}
+
+.btn {
+  background-image: none !important;
+  background-color: white !important;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #60b044 !important;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0) !important;
+}
+
+.commit-tease {
+  background-color: rgba(15,66,203, 0.125) !important;
+}
+
+.menu-item.selected:before, .sunken-menu-item.selected:after {
+  background-color: red !important;
+}
+
+a, a:link, a:visited {
+  color: #0f42cb;
+}
+
+table.files td.icon .octicon-file-directory, .zeroclipboard-link {
+  color: #0f42cb !important;
+}
