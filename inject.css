@@ -45,3 +45,32 @@ a, a:link, a:visited {
 table.files td.icon .octicon-file-directory, .zeroclipboard-link {
   color: #0f42cb !important;
 }
+
+.teaser {
+  background-color: #333;
+  color: white !important;
+  padding: 2em 0;
+  background: #202021 url(/images/modules/home/octicons-bg.png) center repeat;
+}
+
+.teaser__main {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
+.teaser__title {
+  margin-bottom: 0em;
+}
+
+.teaser__subtitle {
+  font-weight: normal;
+  margin-top: 0.25em;
+}
+
+.teaser__aside {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0px;
+}
